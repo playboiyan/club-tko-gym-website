@@ -1,0 +1,41 @@
+
+# CLUB TKO Gym Website
+
+## Project Description
+CLUB TKO Gym is a website designed to provide visitors with information about the gym, its fitness classes, membership options and contact details.
+
+The website allows users to explore gym services and submit enquiries.
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- Google Maps Embed
+
+## Website Pages
+1. Home - Introduction and frequently asked questions.
+2. About Us - Information about CLUB TKO Gym.
+3. Classes - Information about fitness classes and a class search feature.
+4. Membership - Membership information.
+5. Enquiry - Membership and service enquiry form.
+6. Contact - Contact form and gym location map.
+
+## Interactive Features
+- FAQ accordion.
+- Enquiry form validation.
+- Contact form validation.
+- Image lightbox gallery.
+- Fitness class search.
+- Embedded interactive Google Map.
+
+## Installation and Usage
+1. Download or extract the project folder.
+2. Open the project folder in Visual Studio Code.
+3. Open index.html in a web browser.
+4. Navigate through the website using the navigation menu.
+
+## Location
+82 Juta Street, Braamfontein, Johannesburg, South Africa.
+
+## Developer
+Created as part of the WEDE5020 Web Development Portfolio of Evidence.

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/style.css">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Membership Enquiries | CLUB TKO Gym</title>
+<meta name="description" content="Submit a membership or fitness service enquiry to CLUB TKO Gym in Johannesburg.">
+<meta name="keywords" content="CLUB TKO enquiry, gym membership enquiry, fitness services, personal training">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h1>CLUB TKO GYM</h1>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="membership.html">Membership</a>
+            <a href="classes.html">Fitness Classes</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <section>
+
+            <h2>Membership Enquiry</h2>
+
+            <p>
+                Interested in joining CLUB TKO Gym?
+                Complete the form below and we will provide you
+                with more information.
+            </p>
+
+        </section>
+
+        <!-- Enquiry Information -->
+        <section>
+
+            <h3>Gym Information</h3>
+
+            <p>Address: Braamfontein, Johannesburg</p>
+
+            <p>Phone: +27 75 101 9139</p>
+
+            <p>Email: clubtko@gmail.com</p>
+
+        </section>
+
+        <!-- Enquiry Form -->
+        <section>
+
+            <h3>Make an Enquiry</h3>
+
+            <form id="enquiryForm"></form>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="membership">Membership Type:</label>
+
+                <select id="membership" name="membership" required>
+
+                    <option value="">Select Membership</option>
+                    <option value="basic">Basic Membership</option>
+                    <option value="standard">Standard Membership</option>
+                    <option value="premium">Premium Membership</option>
+
+                </select>
+
+                <label for="message">Message:</label>
+
+                <textarea id="message"
+                          name="message"
+                          rows="5"
+                          required></textarea>
+
+                <button type="submit">Submit Enquiry</button>
+
+            </form>
+            <p id="enquiryResponse" role="status"></p>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>CLUB TKO Gym – Braamfontein</p>
+
+        <p>&copy; 2026 CLUB TKO Gym. All Rights Reserved.</p>
+
+    </footer>
+<script src="JS/script.js"></script>
+</body>
+
+</html>
