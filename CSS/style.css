@@ -396,3 +396,54 @@ main img {
 #searchMessage {
     margin-top: 10px;
 }
+
+/* Website image sizing */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Fitness class images */
+.class-card img {
+    width: 100%;
+    max-width: 350px;
+    height: 220px;
+    object-fit: cover;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+/* Homepage images */
+/* General image sizing */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Homepage and general content images */
+main img {
+    width: 100%;
+    max-width: 450px;
+    max-height: 280px;
+    object-fit: cover;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+/* Fitness class images */
+.class-card img {
+    max-width: 350px;
+    height: 220px;
+    object-fit: cover;
+    margin: 15px auto;
+}
+
+/* Keep the logo smaller */
+header img,
+.logo {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+}
